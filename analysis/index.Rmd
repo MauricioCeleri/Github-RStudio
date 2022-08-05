@@ -9,3 +9,12 @@ editor_options:
 ---
 
 Welcome to my research website.
+
+```{r}
+
+```
+
+```{r}
+
+```
+
