@@ -1,0 +1,24 @@
+---
+title: "PCA"
+author: "MauricioCeleri"
+date: "2022-08-05"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+# PCA com os dados Iris
+## Dados
+```{r}
+data("iris")
+```
+
+## Realizando a análise
+```{r}
+library(tidyverse)
+iris %>%
+  ggplot(aes(x=Species, y=Sepal.Length, fill=Species)) + 
+    geom_boxplot() + 
+    theme(legend.position="none")
+```
+
